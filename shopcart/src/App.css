@@ -1,0 +1,89 @@
+/* App.css - beginner friendly styling to match your screenshot vibe */
+
+.page {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header bar */
+.topbar {
+  background: #25d0ea;          /* bright blue like the example */
+  height: 110px;
+  padding: 0 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: bold;
+  color: #111;
+  text-align: left;
+}
+
+.cart {
+  font-size: 18px;
+  color: #111;
+}
+
+/* Each product row */
+.product-row {
+  padding: 25px 60px;
+  border-top: 2px solid #e6ebf2;
+}
+
+/* Product name */
+.product-row h2 {
+  margin: 0 0 18px 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* Image + quantity section */
+.product-body {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+/* Image size (smaller, left aligned) */
+.product-img {
+  width: 140px;
+  height: auto;
+  display: block;
+}
+
+/* Quantity area */
+.qty-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+}
+
+/* Buttons */
+.qty-area button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+
+  border: 2px solid #d6dbe3;
+  background: #f3f5f8;
+  border-radius: 6px;
+}
+
+/* Input box */
+.qty-area input {
+  width: 60px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+
+  border: 2px solid #d6dbe3;
+  border-radius: 6px;
+}
